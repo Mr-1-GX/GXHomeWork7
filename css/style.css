@@ -1,11 +1,21 @@
 /*conteiner-1*/
 /*day*/
-.conteiner-1 {
-	position: relative;
+.container {
+	width: 1440px;
+	height: 1000px;
+	display: inline-block;
+	float: top;
+}
+.container-1 {
+	width: 1440px;
+    height: 500px;
+    display: inline-block;
+
 }
 .background-day {
-	position: absolute;
-
+	position: relative;
+	width: 1440px;
+	height: 500px;
 }
 .bg-img-day-1 {
     background-image: url('');
@@ -47,8 +57,9 @@
 }
 /*night*/
 .background-night {
-	position: absolute;
-
+	position: relative;
+	width: 1440px;
+	height: 500px;
 }
 .bg-img-night-1 {
 	background-image: url('');
@@ -81,3 +92,7 @@
 	background-position: center;
 	position: absolute;
 }
+
+
+
+
